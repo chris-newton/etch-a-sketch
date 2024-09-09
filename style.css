@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(226, 226, 226);
+    height: 800px; 
+    width: 800px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex: auto;
+}
+
+.pixel {
+    flex: auto;
+}
