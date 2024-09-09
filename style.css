@@ -1,16 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     height: 100vh;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(223, 223, 223);
 }
 
 .container {
-    background-color: rgb(226, 226, 226);
+    background-color: white; 
     height: 800px; 
     width: 800px;
-
+    border: 2px solid rgb(104, 104, 104);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -24,4 +29,8 @@ body {
 
 .pixel {
     flex: auto;
+}
+
+.pixel.painted {
+    background-color: black;
 }
